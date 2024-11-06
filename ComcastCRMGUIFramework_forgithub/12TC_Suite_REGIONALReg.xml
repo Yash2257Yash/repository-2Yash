@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.comcast.crm.listenerUtility.ListenerImplementationclass">
+</listener>
+</listeners>
+  <test name="Regional Test">
+    <classes>
+      <class name="All12TCusingTestNGIMplementation.CreateOppertunitiesusingTestNGpomImple">
+      <methods>
+      <include name="CreateOppertunities"></include>
+      </methods>
+      </class>
+            <class name="All12TCusingTestNGIMplementation.CreateTicketusingTestngImple">
+      <methods>
+      <include name="CreateTicket1"></include>
+      </methods>
+      </class>
+            <class name="All12TCusingTestNGIMplementation.CreteOrgTestPOMusingTestNGimple">
+            <methods>
+            <include name="CreateORGwithPHoneNUm"></include>
+            </methods>
+      </class>
+      </classes>
+     
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
